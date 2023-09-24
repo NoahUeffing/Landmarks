@@ -11,12 +11,9 @@ struct ContentView: View {
     var Font = "arial"
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Norris!")
+            Text("Turtle Rock")
                 .font(.title)
-                .foregroundColor(.red)
+                .foregroundColor(.black)
         }
         .padding()
     }
@@ -27,3 +24,7 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+// Stopped at Section 3
+// Combine Views Using Stacks
+// https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
