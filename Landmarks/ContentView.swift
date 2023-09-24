@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var Font = "arial"
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, Norris!")
+                .font(.title)
+                .foregroundColor(.red)
         }
         .padding()
     }
