@@ -49,6 +49,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-// Stopped at Section 3
-// Combine Views Using Stacks
-// https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
+// Stopped at Beginning
+// Building Lists and Navigation
+// https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
